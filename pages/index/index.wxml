@@ -1,0 +1,49 @@
+
+  <view class="{{!userInfo ? 'noscroll' : ''}} indexpage" >
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000" indicator-color="#ffffff" indicator-active-color="#F55D54" circular="true">
+      <block wx:for="{{swiperImage}}" wx:key="{{item}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="355" height="150" />
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class="container">
+      <view class="position-info">
+        <view class='position-left' bindtap='goMap'>
+          <view class="left-icon">
+            <image src="../../images/position.png"></image>
+          </view>
+          <view>息县向店长虚假王东</view>
+        </view>
+        <view class="phone" bindtap='getPhone'>
+          <image src='../../images/phone.png'></image>
+        </view>
+      </view>
+    </view>
+    <view class="index-list">
+      <view class="list-header">
+        <view class="header-txt">美容套餐</view>
+        <view class="header-more">more</view>
+      </view>
+      <view class="wares-box">
+        <view class="wares-list"></view>
+        <view class="wares-list"></view>
+        <view class="wares-list"></view>
+        <view class="wares-list"></view>
+
+      </view>
+    </view>
+
+    <cover-view class="mask"></cover-view>
+    <view class="userinfo-box" wx:if="{{!userInfo}}">
+      <view>请先登录</view>
+      <view>
+        <view >确认</view>
+        <view >取消</view>
+      </view>
+    </view>
+
+
+
+
+  </view>

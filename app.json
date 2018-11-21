@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/index",
+    "pages/map/index",
+    "pages/case/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#F55D54",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "./images/index_active.png",
+        "iconPath": "./images/index.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/case/index",
+        "selectedIconPath": "./images/anli_active.png",
+        "iconPath": "./images/anli.png",
+        "text": "案例"
+      },
+      {
+        "pagePath": "pages/map/index",
+        "selectedIconPath": "./images/map_active.png",
+        "iconPath": "./images/map.png",
+        "text": "在线地图"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "selectedIconPath": "./images/my_active.png",
+        "iconPath": "./images/my.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

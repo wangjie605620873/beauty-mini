@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#F55D54",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "案例",
+  "backgroundColor": "#F55D54",
+  "backgroundTextStyle": "dark",
+  "enablePullDownRefresh": true
+}
