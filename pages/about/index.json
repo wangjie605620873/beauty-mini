@@ -1,8 +1,8 @@
 {
   "navigationBarBackgroundColor": "#F55D54",
   "navigationBarTextStyle": "white",
-  "navigationBarTitleText": "位置",
+  "navigationBarTitleText": "雅典那五谷美容",
   "backgroundColor": "#F55D54",
   "backgroundTextStyle": "dark",
-  "enablePullDownRefresh": false
+  "enablePullDownRefresh" : true
 }

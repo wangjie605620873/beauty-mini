@@ -1,8 +1,8 @@
 {
-  "navigationBarBackgroundColor": "#F55D54",
+  "navigationBarBackgroundColor": "#1296db",
   "navigationBarTextStyle": "white",
-  "navigationBarTitleText": "雅典那五谷美容",
-  "backgroundColor": "#F55D54",
+  "navigationBarTitleText": "superWang的Blog",
+  "backgroundColor": "#1296db",
   "backgroundTextStyle": "dark",
   "enablePullDownRefresh" : true
 }

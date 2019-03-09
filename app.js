@@ -1,4 +1,3 @@
-require('./utils/index')
 App({
   onLaunch: function () {
   },

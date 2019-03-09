@@ -1,34 +1,73 @@
-//index.js
-//获取应用实例
-const app = getApp()
-
 Page({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
-    swiperImage: ['../../images/1.jpeg', '../../images/2.jpeg', '../../images/3.jpeg'],
+    imgUrls: [
+      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+    ],
+    indicatorDots: false,
+    autoplay: false,
+    interval: 5000,
+    duration: 1000
   },
-  onShow(options){
+
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function (options) {
 
   },
-  onPullDownRefresh(){
-    setTimeout(()=>{
-      wx.stopPullDownRefresh()
-      
-    },300)
+
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  onReady: function () {
+
   },
-  onShareAppMessage : function(){
-    return{
-      title:"测试"
-    }
+
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow: function () {
+
   },
-  getPhone:function(){
-    wx.makePhoneCall({
-      phoneNumber : '15652520368'
-    })
+
+  /**
+   * 生命周期函数--监听页面隐藏
+   */
+  onHide: function () {
+
   },
-  goMap:function(){
-    wx.navigateTo({
-      url: '../map/index',
-    })
+
+  /**
+   * 生命周期函数--监听页面卸载
+   */
+  onUnload: function () {
+
+  },
+
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh: function () {
+
+  },
+
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom: function () {
+
+  },
+
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage: function () {
+
   }
-
 })
